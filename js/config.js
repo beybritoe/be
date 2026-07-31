@@ -24,19 +24,19 @@ const BECLA_CONFIG = {
       name: "Recheado de Caramelo",
       description: "Cookie de chocolate estilo brookie, com caramelo derretendo por dentro.",
       price: "R$ 14,00",
-      image: "",
+      image: "assets/img/products/caramelo.png",
     },
     {
       name: "Cookies & Cream (Oreo)",
       description: "Massa de chocolate carregada de pedaços de Oreo, coroado com meio biscoito.",
       price: "R$ 13,00",
-      image: "",
+      image: "assets/img/products/oreo.png",
     },
     {
       name: "Doce de Leite com Chocolate Branco",
       description: "Massa amanteigada recheada com doce de leite e coberta de raspas de chocolate branco.",
       price: "R$ 13,00",
-      image: "",
+      image: "assets/img/products/doce-de-leite-branco.png",
     },
     {
       name: "Tradicional Chocolate",

@@ -292,6 +292,15 @@ img {
   justify-content: space-between;
   overflow: hidden;
 }
+.menu-card-img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--bg-alt);
+}
+.menu-card-img--placeholder {
+  background: linear-gradient(135deg, var(--bg-alt), var(--gray-light));
+}
 .menu-card-body {
   padding: 24px 24px 12px;
 }

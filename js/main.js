@@ -26,8 +26,12 @@
     grid.innerHTML = cfg.menu
       .map((item) => {
         const message = `Olá! Quero pedir: ${item.name}.`;
+        const image = item.image
+          ? `<img class="menu-card-img" src="${item.image}" alt="${item.name}" loading="lazy">`
+          : `<div class="menu-card-img menu-card-img--placeholder"></div>`;
         return `
           <article class="menu-card">
+            ${image}
             <div class="menu-card-body">
               <h3>${item.name}</h3>
               <p>${item.description}</p>
