@@ -8,7 +8,7 @@
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;0,900;1,500;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,8 +18,8 @@
 <header class="site-header">
   <div class="container header-inner">
     <a href="#inicio" class="logo">
-      <img src="assets/img/cookie-icon.svg" alt="" class="logo-icon">
-      <span>Becla Cookies</span>
+      <span class="logo-line1">Becla</span>
+      <span class="logo-line2">Cookies</span>
     </a>
 
     <nav class="main-nav" id="main-nav">
@@ -61,8 +61,8 @@
           <a class="btn btn-outline" href="#cardapio">Ver cardápio</a>
         </div>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <img src="assets/img/hero-cookies.svg" alt="">
+      <div class="hero-art">
+        <img src="assets/img/products/caramelo.png" alt="Cookie recheado de caramelo da Becla Cookies, com calda derretendo por cima">
       </div>
     </div>
   </section>
@@ -132,15 +132,9 @@
         <a href="https://www.instagram.com/beclacookies/" target="_blank" rel="noopener">@beclacookies</a>.
       </p>
 
-      <div class="insta-grid" aria-hidden="true">
-        <div class="insta-tile"></div>
-        <div class="insta-tile"></div>
-        <div class="insta-tile"></div>
-        <div class="insta-tile"></div>
-        <div class="insta-tile"></div>
-        <div class="insta-tile"></div>
+      <div class="insta-grid" id="insta-grid">
+        <!-- Renderizado via JS a partir de js/config.js (cfg.gallery) -->
       </div>
-      <p class="insta-note"><!-- PLACEHOLDER: substitua os quadrados acima por fotos reais dos produtos --></p>
 
       <a class="btn btn-outline" href="https://www.instagram.com/beclacookies/" target="_blank" rel="noopener">
         <img src="assets/img/instagram.svg" alt="" class="icon"> @beclacookies

@@ -46,6 +46,20 @@
       .join("");
   }
 
+  // Render Instagram gallery
+  const instaGrid = document.getElementById("insta-grid");
+  if (instaGrid && Array.isArray(cfg.gallery)) {
+    instaGrid.innerHTML = cfg.gallery
+      .map(
+        (photo) => `
+          <a class="insta-tile" href="${cfg.instagramUrl}" target="_blank" rel="noopener">
+            <img src="${photo.image}" alt="${photo.alt}" loading="lazy">
+          </a>
+        `
+      )
+      .join("");
+  }
+
   // Mobile nav toggle
   const navToggle = document.getElementById("nav-toggle");
   const nav = document.getElementById("main-nav");

@@ -15,6 +15,14 @@ const BECLA_CONFIG = {
 
   whatsappMessageDefault: "Olá! Vim pelo site da Becla Cookies e gostaria de fazer um pedido.",
 
+  // Fotos reais para a seção "Siga no Instagram". Adicione mais aqui
+  // conforme novas fotos forem enviadas.
+  gallery: [
+    { image: "assets/img/products/caramelo.png", alt: "Cookie recheado de caramelo" },
+    { image: "assets/img/products/oreo.png", alt: "Cookie de cookies & cream com Oreo" },
+    { image: "assets/img/products/doce-de-leite-branco.png", alt: "Cookie de doce de leite com chocolate branco" },
+  ],
+
   // Sabores baseados nas fotos reais enviadas. Preços ainda são estimativa
   // (PLACEHOLDER) — ajuste para os valores reais. Quando as fotos forem
   // salvas em assets/img/products/, preencha o campo "image" de cada item
