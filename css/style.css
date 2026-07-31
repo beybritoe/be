@@ -367,6 +367,14 @@ img {
   filter: invert(0);
 }
 
+.instagram-embed {
+  max-width: 540px;
+  margin: 32px auto 8px;
+}
+.instagram-embed iframe {
+  border-radius: 3px;
+}
+
 .insta-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
