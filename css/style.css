@@ -158,24 +158,12 @@ img {
 }
 .logo {
   display: flex;
-  flex-direction: column;
-  line-height: 1;
-  gap: 3px;
+  align-items: center;
 }
-.logo-line1 {
-  font-family: var(--font-heading);
-  font-style: italic;
-  font-weight: 600;
-  font-size: 1.5rem;
-  color: var(--ink);
-}
-.logo-line2 {
-  font-family: var(--font-body);
-  font-weight: 700;
-  font-size: 0.62rem;
-  letter-spacing: 0.32em;
-  text-transform: uppercase;
-  color: var(--brown-soft);
+.logo-mark {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
 }
 .main-nav {
   display: flex;
